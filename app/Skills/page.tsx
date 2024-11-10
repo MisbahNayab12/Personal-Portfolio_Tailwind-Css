@@ -1,8 +1,8 @@
 import React from 'react'
 import Image from 'next/image'
-import Icon1 from "../../public/90 Percent Image.jpg"
-import Icon2 from "../../public/80 Percent Image.jpg"
-import Button from "./Button"
+import Icon1 from '../../public/90 Percent Image.jpg'
+import Icon2 from '../../public/80 Percent Image.jpg'
+import Button from './Button'
 
 export default function Skills() {
   return (

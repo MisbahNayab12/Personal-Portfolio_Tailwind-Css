@@ -7,7 +7,7 @@ export default function Contact() {
             <div className='w-2/6 bg-white rounded-md'>
                 <div className='text-center space-y-2'>
                     <h1 className='text-4xl font-bold font-sans pt-5'>Contact Me</h1>
-                    <p className='font-sans text-sm text-gray-500 px-5'>Get in touch for collaboration, inquiries, or support. I'm here to help!</p>
+                    <p className='font-sans text-sm text-gray-500 px-5'>Get in touch for collaboration, inquiries, or support. I am here to help!</p>
                 </div>
                 <div>
                     <div className='grid w-full gap-4 p-6'>

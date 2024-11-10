@@ -1,7 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
-import Logo from "../../public/M Logo.png"
-import Button from "./HeaderButton"
+import Logo from '../../public/M Logo.png'
+import Button from './HeaderButton'
 import Link from 'next/link'
 
 export default function Header() {

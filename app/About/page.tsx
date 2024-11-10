@@ -1,8 +1,8 @@
 import React from 'react'
 import Image from 'next/image'
-import Picture from "../../public/programming-image.jpg"
+import Picture from '../../public/programming-image.jpg'
 import Link from 'next/link'
-import Button from "./Button"
+import Button from './Button'
 
 export default function About() {
     return (
