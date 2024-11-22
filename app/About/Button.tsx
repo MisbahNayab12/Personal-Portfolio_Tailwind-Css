@@ -7,7 +7,7 @@ type ButtonProps = {
   
   export default function Button({ className, downloadUrl }: ButtonProps) {
     return (
-      <a href={downloadUrl} className={className}> Download CV </a>
+      <a href={downloadUrl} download className={className}> Download CV </a>
     )
   }
 
