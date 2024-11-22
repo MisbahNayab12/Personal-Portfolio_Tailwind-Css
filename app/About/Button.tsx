@@ -1,7 +1,13 @@
 import React from 'react'
 
-const Button = ({ className }: { className?: string }) => (
-    <button className={className}>Download CV</button>
-)
+type ButtonProps = {
+    className?: string;
+    downloadUrl: string;
+  };
+  
+  export default function Button({ className, downloadUrl }: ButtonProps) {
+    return (
+      <a href={downloadUrl} className={className}> Download CV </a>
+    )
+  }
 
-export default Button
